@@ -2,27 +2,15 @@
   "roles": [
     {
       "name": "admin",
-      "permissions": [
-        "create_task",
-        "read_task",
-        "update_task",
-        "delete_task"
-      ]
+      "permissions": ["create_task", "read_task", "update_task", "delete_task"]
     },
     {
       "name": "manager",
-      "permissions": [
-        "create_task",
-        "read_task",
-        "update_task"
-      ]
+      "permissions": ["create_task", "read_task", "update_task"]
     },
     {
       "name": "employee",
-      "permissions": [
-        "create_task",
-        "read_task"
-      ]
+      "permissions": ["create_task", "read_task"]
     }
   ]
 }
