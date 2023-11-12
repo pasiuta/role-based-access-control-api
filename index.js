@@ -6,6 +6,9 @@ const tasksRoutes = require('./routes/tasks');
 const authController = require('./controllers/authController');
 const tasksController = require('./controllers/tasksController');
 const rbacMiddleware = require('./middleware/rbacMiddleware');
+const connectDB = require('./database/db');
+
+connectDB();
 
 app.use(bodyParser.json());
 
